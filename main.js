@@ -79,7 +79,7 @@ function init() {
   const textMaterial = new THREE.MeshStandardMaterial({ color: 0xffffff });
   const loader = new FontLoader();
 
-  loader.load("fonts/Noto Sans JP Medium_Regular.json", function (font) {
+  loader.load("fonts/Noto_Sans_JP_Medium_Regular.json", function (font) {
     const textGeometry = new TextGeometry("Three.jsすげぇ!", {
       font: font,
       size: 1,
