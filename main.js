@@ -35,7 +35,7 @@ function init() {
      texture
   =================================================== */
   const textureLoader = new THREE.TextureLoader();
-  const particlesTexture = textureLoader.load("/public/textures/particles/8.png");
+  const particlesTexture = textureLoader.load("/textures/particles/8.png");
 
   /* =================================================
      object
