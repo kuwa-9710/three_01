@@ -1,0 +1,38 @@
+# バイナリ、実行可能ファイル、ライブラリ
+*.exe
+*.dll
+*.so
+*.dylib
+
+# キャッシュや一時ファイル
+.cache/
+.temp/
+*.log
+*.tmp
+
+# IDEやエディタ関連のファイル
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# パッケージングやビルド関連
+node_modules/
+
+# OS関連のファイルやディレクトリ
+.DS_Store
+Thumbs.db
+
+# バックアップやプロジェクト固有のファイル
+backup/
+config.ini
+credentials.txt
+
+# ログやエラーファイル
+error.log
+error.txt
+
+# その他一般的なファイル
+*.bak
+*.old
+*.swp
