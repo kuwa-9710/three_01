@@ -80,7 +80,7 @@ function init() {
   const loader = new FontLoader();
 
   loader.load("fonts/Noto_Sans_JP_Medium_Regular.json", function (font) {
-    const textGeometry = new TextGeometry("Three.jsすげぇ!", {
+    const textGeometry = new TextGeometry("Three.jsを学習しています", {
       font: font,
       size: 1,
       height: 0.5,
@@ -90,6 +90,7 @@ function init() {
       bevelSize: 0.02,
       bevelOffset: 0,
       bevelSegments: 5,
+      antialias: true,
     });
 
     textGeometry.computeBoundingBox();
